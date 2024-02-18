@@ -13,6 +13,11 @@ public class MetierImpl implements IMetier{
         this.dao = dao;
     }
 
+/*    public MetierImpl() {
+        this.dao = dao;
+    }*/
+
+
     public IDao getDao() {
         return dao;
     }
